@@ -199,4 +199,8 @@ Step 3: Commit changes
 git commit -m "Add system installation and documentation file in README"
 ```
 
-Step 4: Push to GitHub
+Step 4: Push changes to GitHub
+<img width="987" height="574" alt="image" src="https://github.com/user-attachments/assets/847c16b4-93c6-4285-aa39-e845015fc871" />
+
+
+We have just successfully set up a full development workplace
