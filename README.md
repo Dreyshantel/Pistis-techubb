@@ -31,4 +31,11 @@ After the successful installation and configuration of VScode, i installed openS
 <img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/68c4a9ab-fcca-43f8-aa6d-b3478773035e" />
 <img width="821" height="195" alt="image" src="https://github.com/user-attachments/assets/9970a443-b98d-447f-b21f-81ce05d192f3" />
 
+## Generate SSH Keys and configuring ssh-agent
+I generated an SSH key pair using the Ed25519 algorithm, accepting the default file location and optionally setting a passphrase. The successful creation of the keys was confirmed by verifying the presence of `id_ed25519` and `id_ed25519.pub` in the **~/.ssh** directory. Also, the SSH agent was started, and the private key was added to the ssh-agent. The loaded keys were then verified, completing the SSH configuration required for secure GitHub authentication. Through this process, I learned how SSH enables secure, passwordless authentication with GitHub, how SSH agents manage private keys, and how to verify successful key-based access using the command line.
+
+<img width="1910" height="770" alt="image" src="https://github.com/user-attachments/assets/c3f1cf39-50d8-4644-ad6f-a87d2dfd024f" />
+
+
+I created a new GitHub repository named **Pistis-techub** by selecting New repository, choosing the desired visibility (public), and leaving the repository uninitialized (no README). The repository was then cloned locally using the SSH URL obtained from GitHub. After cloning the repo, Visual Studio Code was opened in the project directory, and a README.md file was created to document the setup process. The changes were reviewed using git status, staged with git add ., which i committed with an appropriate message, and finally pushed to GitHub, making the documentation available in the remote repository.
 
