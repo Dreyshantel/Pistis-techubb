@@ -38,4 +38,4 @@ I generated an SSH key pair using the Ed25519 algorithm, accepting the default f
 
 
 I created a new GitHub repository named **Pistis-techub** by selecting New repository, choosing the desired visibility (public), and leaving the repository uninitialized (no README). The repository was then cloned locally using the SSH URL obtained from GitHub. After cloning the repo, Visual Studio Code was opened in the project directory, and a README.md file was created to document the setup process. The changes were reviewed using git status, staged with git add ., which i committed with an appropriate message, and finally pushed to GitHub, making the documentation available in the remote repository.
-
+<img width="987" height="574" alt="image" src="https://github.com/user-attachments/assets/847c16b4-93c6-4285-aa39-e845015fc871" />
